@@ -17,7 +17,7 @@ const translations = {
     "trust.1": "LGPD Compliant",
     "trust.2": "100% em Nuvem (SaaS)",
     "trust.3": "Criptografia AES-256",
-    "trust.4": "CSAT <strong>4,93</strong>/5",
+    "trust.4": "CSAT 4,93/5",
     "trust.5": "Acronis Gold Partner",
 
     "pain.label": "O Problema",
@@ -255,7 +255,7 @@ const translations = {
     "trust.1": "LGPD Compliant",
     "trust.2": "100% Cloud (SaaS)",
     "trust.3": "AES-256 Encryption",
-    "trust.4": "CSAT <strong>4.93</strong>/5",
+    "trust.4": "CSAT 4.93/5",
     "trust.5": "Acronis Gold Partner",
 
     "pain.label": "The Problem",
@@ -493,7 +493,7 @@ const translations = {
     "trust.1": "LGPD Compliant",
     "trust.2": "100% en la Nube (SaaS)",
     "trust.3": "Cifrado AES-256",
-    "trust.4": "CSAT <strong>4,93</strong>/5",
+    "trust.4": "CSAT 4,93/5",
     "trust.5": "Acronis Gold Partner",
 
     "pain.label": "El Problema",
