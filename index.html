@@ -145,8 +145,12 @@ nav{position:sticky;top:0;z-index:100;background:rgba(11,15,20,.92);backdrop-fil
 .nav-breadcrumb{font-size:.78rem;color:var(--muted);display:flex;align-items:center;gap:6px}
 .nav-breadcrumb a{color:var(--blue);transition:color .2s}
 .nav-breadcrumb a:hover{color:var(--blue-glow)}
-.nav-btns{display:flex;gap:10px;flex-shrink:0}
+.nav-btns{display:flex;align-items:center;gap:10px;flex-shrink:0}
 .nav-btns .btn{padding:9px 18px;font-size:.85rem}
+.lang-switcher{display:flex;gap:4px}
+.lang-btn{background:transparent;border:1px solid var(--border);color:var(--muted);padding:4px 10px;border-radius:6px;font-size:.75rem;font-weight:600;cursor:pointer;transition:all .2s;font-family:var(--body)}
+.lang-btn:hover{border-color:rgba(193,18,31,.5);color:var(--fg)}
+.lang-btn.active{border-color:var(--primary);color:var(--primary)}
 
 /* HERO */
 .hero{position:relative;min-height:600px;display:flex;align-items:center;overflow:hidden;padding:80px 0}
@@ -377,12 +381,12 @@ footer{border-top:1px solid var(--border);padding:48px 0 24px}
         <span>›</span>
         <span data-i18n="nav.current">Arquivamento de E-mail</span>
       </div>
-      <div style="display:flex;align-items:center;gap:4px;">
-        <button class="lang-btn active" data-lang="pt" onclick="applyLang('pt')">PT</button>
-        <button class="lang-btn" data-lang="en" onclick="applyLang('en')">EN</button>
-        <button class="lang-btn" data-lang="es" onclick="applyLang('es')">ES</button>
-      </div>
       <div class="nav-btns">
+        <div class="lang-switcher">
+          <button class="lang-btn" data-lang="pt" onclick="applyLang('pt')">PT</button>
+          <button class="lang-btn" data-lang="en" onclick="applyLang('en')">EN</button>
+          <button class="lang-btn" data-lang="es" onclick="applyLang('es')">ES</button>
+        </div>
         <a href="#contato" class="btn btn-outline" data-i18n="nav.cta2">Falar com Especialista</a>
         <a href="#download" class="btn btn-primary" data-i18n="nav.cta">Baixar Apresentação</a>
       </div>
