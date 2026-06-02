@@ -58,8 +58,8 @@ fputcsv($fp, [date('Y-m-d H:i:s'), $nome, $sobrenome, $email, $tel, $msg]);
 fclose($fp);
 
 // E-mail
-$subject = "=?UTF-8?B?" . base64_encode("Fale Conosco — Backup M365 — $nome $sobrenome | $email") . "?=";
-$body  = "Nova mensagem — Fale Conosco (Backup M365)\n\n";
+$subject = "=?UTF-8?B?" . base64_encode("Fale Conosco — Arquivamento E-mail — $nome $sobrenome | $email") . "?=";
+$body  = "Nova mensagem — Fale Conosco (Arquivamento de E-mail M365)\n\n";
 $body .= "Nome:     $nome $sobrenome\n";
 $body .= "E-mail:   $email\n";
 $body .= "Telefone: $tel\n";
