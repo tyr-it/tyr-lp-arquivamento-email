@@ -60,8 +60,8 @@ fputcsv($fp, [date('Y-m-d H:i:s'), $nome, $sobrenome, $empresa, $email, $tel, $s
 fclose($fp);
 
 // E-mail
-$subject = "=?UTF-8?B?" . base64_encode("Lead — Backup M365 — $nome $sobrenome | " . ($empresa ?: $email)) . "?=";
-$body  = "Novo lead — Backup M365\n\n";
+$subject = "=?UTF-8?B?" . base64_encode("Lead — Arquivamento E-mail — $nome $sobrenome | " . ($empresa ?: $email)) . "?=";
+$body  = "Novo lead — Arquivamento de E-mail M365\n\n";
 $body .= "Nome:     $nome $sobrenome\n";
 $body .= "Empresa:  $empresa\n";
 $body .= "E-mail:   $email\n";
