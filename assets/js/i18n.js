@@ -15,7 +15,7 @@ const translations = {
     "hero.btn2": "Falar com Especialista",
 
     "trust.1": "LGPD Compliant",
-    "trust.2": "100% em Nuvem (SaaS)",
+    "trust.2": "100% em Nuvem",
     "trust.3": "Criptografia AES-256",
     "trust.4": "CSAT 4,93/5",
     "trust.5": "Acronis Gold Partner",
@@ -61,7 +61,7 @@ const translations = {
     "pillar.2.title": "Controle Absoluto",
     "pillar.2.desc": "Encontre qualquer e-mail, contrato ou decisão em segundos. Busca avançada por texto completo, remetente, data ou assunto. Exportação com um clique para auditorias.",
     "pillar.3.title": "Conformidade Contínua",
-    "pillar.3.desc": "Armazenamento imutável WORM, políticas de retenção configuráveis, Legal Hold e trilhas de auditoria completas. Sua empresa blindada contra litígios e multas LGPD.",
+    "pillar.3.desc": "Armazenamento à prova de alteração (WORM), políticas de retenção configuráveis, bloqueio legal de e-mails (Legal Hold) e trilhas de auditoria completas. Sua empresa blindada contra litígios e multas LGPD.",
 
     "cap.label": "Pilar 1",
     "cap.h3": "Captura Completa: Seu registro histórico, automático e em tempo real.",
@@ -253,7 +253,7 @@ const translations = {
     "hero.btn2": "Talk to a Specialist",
 
     "trust.1": "LGPD Compliant",
-    "trust.2": "100% Cloud (SaaS)",
+    "trust.2": "100% Cloud",
     "trust.3": "AES-256 Encryption",
     "trust.4": "CSAT 4.93/5",
     "trust.5": "Acronis Gold Partner",
