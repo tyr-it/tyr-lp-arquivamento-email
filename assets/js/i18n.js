@@ -299,7 +299,7 @@ const translations = {
     "pillar.2.title": "Absolute Control",
     "pillar.2.desc": "Find any email, contract, or decision in seconds. Advanced full-text search by sender, date, or subject. One-click export for audits.",
     "pillar.3.title": "Continuous Compliance",
-    "pillar.3.desc": "Immutable WORM storage, configurable retention policies, Legal Hold, and complete audit trails. Your company shielded from litigation and LGPD fines.",
+    "pillar.3.desc": "Tamper-proof storage (WORM), configurable retention policies, email legal hold (Legal Hold), and complete audit trails. Your company shielded from litigation and LGPD fines.",
 
     "cap.label": "Pillar 1",
     "cap.h3": "Complete Capture: Your historical record, automatic and real-time.",
@@ -491,7 +491,7 @@ const translations = {
     "hero.btn2": "Hablar con Especialista",
 
     "trust.1": "LGPD Compliant",
-    "trust.2": "100% en la Nube (SaaS)",
+    "trust.2": "100% en la Nube",
     "trust.3": "Cifrado AES-256",
     "trust.4": "CSAT 4,93/5",
     "trust.5": "Acronis Gold Partner",
@@ -537,7 +537,7 @@ const translations = {
     "pillar.2.title": "Control Absoluto",
     "pillar.2.desc": "Encuentre cualquier correo, contrato o decisión en segundos. Búsqueda avanzada por texto completo, remitente, fecha o asunto. Exportación con un clic para auditorías.",
     "pillar.3.title": "Conformidad Continua",
-    "pillar.3.desc": "Almacenamiento inmutable WORM, políticas de retención configurables, Legal Hold y registros de auditoría completos. Su empresa blindada contra litigios y multas.",
+    "pillar.3.desc": "Almacenamiento a prueba de alteración (WORM), políticas de retención configurables, bloqueo legal de correos (Legal Hold) y registros de auditoría completos. Su empresa blindada contra litigios y multas LGPD.",
 
     "cap.label": "Pilar 1",
     "cap.h3": "Captura Completa: Su registro histórico, automático y en tiempo real.",
